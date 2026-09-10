@@ -5,7 +5,7 @@ public class Demo {
         // Integers --> byte, short, int, long
         // byte b = 127;
         byte b = 07;   // octal --> 0 - 7
-        byte b = 0X07;   // hexadecimal --> 0 - 9, A, B, C, D, E, F (1 - 15)
+        // byte b1 = 0X07;   // hexadecimal --> 0 - 9, A, B, C, D, E, F (1 - 15)
         short s = 20;
         int i = 10;
         long l = 10000000000L;
