@@ -9,6 +9,8 @@ public class Demo {
         System.out.println(getNum());
         // 4. Input and output
         System.out.println(getDetails("Prashant", 23));
+
+        return; // optional
     }   
     // No input and no output
     static void greet(){
