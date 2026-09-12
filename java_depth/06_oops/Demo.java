@@ -15,6 +15,28 @@ class Student {
     String college;
     int marks;
 
+    // Constructor
+    // Rules for constructor in java
+
+    // 1. no return type, not even void
+    // 2. same name as class name
+    // 3. no static
+    // 4. automatic called during object creation
+    // 5. Used to initialize an object
+    // 6. It can also be overloaded
+
+    Student(String n, int a, int r, String s, String c, int m) { // parameterized constructor --> constructor overloading
+        name = n;
+        age = a;
+        rollno = r;
+        stream = s;
+        college = c;
+        marks = m;
+    }
+    Student() { // default constructor --> no parameters
+        
+    }
+
     void markAttendence() { // behaviours --> functions --> instance methods
         System.out.println("Attendence marked by : " + name);
     }
@@ -52,6 +74,12 @@ public class Demo {
 
         s2.markAttendence();
         s2.print();
+        
+        System.out.println("------------------");
+
+        Student s3 = new Student("Rahul", 22, 32, "IT", "Chandigarh University", 95);
+        s3.markAttendence();
+        s3.print();
     }   
     
     
