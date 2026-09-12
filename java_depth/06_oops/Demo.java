@@ -26,12 +26,12 @@ class Student {
     // 6. It can also be overloaded
 
     Student(String n, int a, int r, String s, String c, int m) { // parameterized constructor --> constructor overloading
-        name = n;
-        age = a;
-        rollno = r;
-        stream = s;
-        college = c;
-        marks = m;
+        this.name = n;
+        this.age = a;
+        this.rollno = r;
+        this.stream = s;
+        this.college = c;
+        this.marks = m;
     }
     Student() { // default constructor --> no parameters
         
@@ -74,7 +74,7 @@ public class Demo {
 
         s2.markAttendence();
         s2.print();
-        
+
         System.out.println("------------------");
 
         Student s3 = new Student("Rahul", 22, 32, "IT", "Chandigarh University", 95);
