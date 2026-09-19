@@ -46,15 +46,17 @@ public class Demo {
 
 
         // Note: null pointer exception
-        Integer x1 = null;
-        int y1 = x1;
-        System.out.println(y1);
+        // Integer x1 = null;
+        // int y1 = x1;
+        // System.out.println(y1);
         /*
         *
         * Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because "<local9>" is null
         *                at Demo.main(Demo.java:50)
         * 
         */
+
+        System.out.println(p.intValue() == x.intValue());
     }    
 
     static void printInteger(int x){ // unboxing
